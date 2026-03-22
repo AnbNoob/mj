@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/launchlabs", "destination": "/launchlabs.html" },
+    { "source": "/launchlabs/(.*)", "destination": "/launchlabs.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/booking", "destination": "/booking.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
